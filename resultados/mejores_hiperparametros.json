@@ -1,0 +1,35 @@
+{
+  "\u00c1rbol de decisi\u00f3n": {
+    "params": {
+      "max_depth": 8,
+      "min_samples_leaf": 10
+    },
+    "rmse_cv": 1.2584743379579937
+  },
+  "kNN": {
+    "params": {
+      "n_neighbors": 20,
+      "p": 2,
+      "weights": "uniform"
+    },
+    "rmse_cv": 1.3938343424555377
+  },
+  "Random Forest (grid)": {
+    "params": {
+      "n_estimators": 50,
+      "max_depth": 8,
+      "max_features": 1.0,
+      "min_samples_leaf": 5
+    },
+    "rmse_cv": 1.2517679905381296
+  },
+  "Random Forest (random)": {
+    "params": {
+      "n_estimators": 50,
+      "max_depth": 16,
+      "max_features": 0.5,
+      "min_samples_leaf": 17
+    },
+    "rmse_cv": 1.288190483989664
+  }
+}
